@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+header {
+    background: #012038;
+    padding: 20px 120px 20px 120px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.brand a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+.navlinks ul li {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+.navlinks ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.cart i{
+    color: #fff;
+}
+#home {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(images/background.jpg);
+    color: #fff;
+}
+.text h1{
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 80px;
+}
+.text p {
+    font-size: 36px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #0091ff;
+    border: none;
+    border-radius: 10px;
+}
+.heading {
+    text-align: center;
+    font-size: 30px;
+}
